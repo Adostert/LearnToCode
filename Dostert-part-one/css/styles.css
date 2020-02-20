@@ -1,0 +1,159 @@
+/* For mobile phones */
+html {
+	background-color: #fff;
+}
+/* tag style */
+
+
+p {
+	font-family: "Roboto";
+	color: #20a8b4;
+	font-weight: 400;
+}
+
+h1 {
+	font-family: "Roboto";
+	color: #20a8b4;
+	font-weight: 600;
+}
+
+/* class style */
+.nav-bar {
+	font-family: "Roboto";
+  background-color: #f2f2f2;
+}
+.nav-items {
+	padding: 0;
+	
+}
+.nav-item {
+	list-style-type: none;
+	text-decoration: none;
+	color: #ff5c0f;
+	width: 100%;
+}
+.normal-link {
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: "Roboto";
+	text-decoration: none;
+}
+.code-color {
+	color: #20a8b4;
+	padding: 0px 0px 0px 0px;
+}
+.button-text {
+	font-family: "Roboto";
+	color: #fff;
+	background-color: #20a8b4;
+	text-decoration: none;
+	width: 100%;
+	padding: 12px 0px;
+    display: inline-block;
+    text-align: center;
+}
+.normal-link:hover {
+	color:#FF5c0f;
+}
+
+#logo1 {
+	display: inline;
+	color: black;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.find-how-text:hover {
+	background-color: #ff5c0f;
+	color: #20a8b4;
+}
+.button-text:hover {
+	background-color: #ff5c0f;
+	color: #fff;
+}
+
+@media (min-width: 760px) {
+/* For Desktop */
+
+html{
+ background-image: url("codeImg.jpg");
+	background-position: center right;
+	background-size: 100%;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav-bar {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	font-weight: 400;
+}
+
+.nav-item {
+  display: inline;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+ /* width: 100%;*/
+  position: relative;
+  list-style-type: none;
+  padding: 0px 0px 0px 0px;
+
+}
+
+.button-text {
+	color: white;
+	background-color: #20a8b4;
+	border-radius: 10px;
+	width: initial;
+}
+.find-how-text {
+	margin-top: 10px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.code-head {
+	margin: 0;
+	width: 50%;
+}
+
+.code-text {
+	width: 40%
+}
+
+.code-inner-text {
+  margin: auto;
+  display: inline;
+  color: #20a8b4;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.normal {
+	color: #20a8b4;
+}
+.code-color {
+	color: #FF5c0f;
+	padding: 0px 10px 0px 10px;
+}
+
+.code-head-inner {
+	display: flex;
+	flex-flow: row wrap;
+	font-family: "Roboto";
+	padding-bottom: 10px;
+	padding-top: 160px;
+	position: relative;
+	direction: center;
+	font-weight:600;
+	color: black;
+	margin-bottom: 0;
+}
+
+
+}
